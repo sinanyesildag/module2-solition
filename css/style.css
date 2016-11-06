@@ -1,0 +1,170 @@
+*{
+	box-sizing: border-box;
+}
+body{
+
+	margin-left: auto;
+	margin-right: auto;
+}
+h1{
+	color:red;
+	text-align: center;
+	font-size: 2em;
+}
+div{
+	width: auto;
+	font-size: 125%;
+	padding: 10px;
+	background: grey;
+	border: 3px solid black;
+}
+@media (min-width: 992px) {
+#content1{
+	width: 33.33%;
+	float: left;
+}
+#content2{
+	width: 33.33%;
+	float: left;
+}
+#content3{
+	width: 33.33%;
+	float: left;
+}
+#subcontent{
+	width: auto;
+	margin-top: 65px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#header1{
+	float:right;
+	margin-top: -10px;
+	margin-right: -10px;
+	width: 75px;
+	background-color: red;
+	border: 2px solid black;
+	text-align: center;
+	color: white;
+}
+#header2{
+	float:right;
+	margin-top: -10px;
+	margin-right: -10px;
+	width: 75px;
+	background-color: green;
+	border: 2px solid black;
+	text-align: center;
+	color: white;
+}
+#header3{
+	float:right;
+	margin-top: -10px;
+	margin-right: -10px;
+	width: 75px;
+	background-color: yellow;
+	border: 2px solid black;
+	text-align: center;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+#content1{
+	width: 50%;
+	float: left;
+}
+#content2{
+	width: 50%;
+	float: left;
+}
+#content3{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+#subcontent{
+	width: auto;
+	margin-top: 65px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#header1{
+	float:right;
+	margin-top: -10px;
+	margin-right: -10px;
+	width: 75px;
+	background-color: red;
+	border: 2px solid black;
+	text-align: center;
+	color: white;
+}
+#header2{
+	float:right;
+	margin-top: -10px;
+	margin-right: -10px;
+	width: 75px;
+	background-color: green;
+	border: 2px solid black;
+	text-align: center;
+	color: white;
+}
+#header3{
+	float:right;
+	margin-top: -10px;
+	margin-right: -10px;
+	width: 75px;
+	background-color: yellow;
+	border: 2px solid black;
+	text-align: center;
+}
+}
+@media (max-width: 767px){
+#content1{
+	width: 100%;
+	float: left;
+}
+#content2{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+#content3{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+#subcontent{
+	width: auto;
+	margin-top: 65px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#header1{
+	float:right;
+	margin-top: -10px;
+	margin-right: -10px;
+	width: 75px;
+	background-color: red;
+	border: 2px solid black;
+	text-align: center;
+	color: white;
+}
+#header2{
+	float:right;
+	margin-top: -10px;
+	margin-right: -10px;
+	width: 75px;
+	background-color: green;
+	border: 2px solid black;
+	text-align: center;
+	color: white;
+}
+#header3{
+	float:right;
+	margin-top: -10px;
+	margin-right: -10px;
+	width: 75px;
+	background-color: yellow;
+	border: 2px solid black;
+	text-align: center;
+}	
+}
