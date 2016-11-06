@@ -3,25 +3,20 @@
   margin: 0px;
   padding: 0px
 }
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   padding: 0px 10px;
 }
-
-
 h1 {
   text-align: center;
   margin: 10px 0px;
   font-size: 1.75em;
   color: red;
 }
-
 p {
   padding: 40px 10px 10px 10px;
 }
-
 h2 {
   padding: 5px 10px;
   width: 100px;
@@ -33,33 +28,24 @@ h2 {
   border-bottom: 1px solid #000;
   font-size: 1.25em;
 }
-
 div.section {
   border: 1px solid #000;
   background-color: #F398C4;
   margin: 10px;
   position: relative;;
 }
-
 h2.chicken {
   background-color: rgb(60, 186, 200);
 }
-
 h2.beef {
   background-color: rgb(249, 203, 143);
 }
-
 h2.sushi {
   background-color: rgb(241, 145, 126);
 }
-
 .row {
   width:100%;
 }
-
-/*grid begin*/
-/*desktop*/
-
 @media (min-width: 992px) {
   .col-lg-1,
   .col-lg-2,
@@ -75,27 +61,21 @@ h2.sushi {
   .col-lg-12 {
     float: left;
   }
-
   .col-lg-1 {
     width: 8.33%;
   }
-
   .col-lg-2 {
     width: 16.66%;
   }
-
   .col-lg-3 {
     width: 25%;
   }
-
   .col-lg-4 {
     width: 33.33%;
   }
-
   .col-lg-5 {
     width: 41.66%;
   }
-
   .col-lg-6 {
     width: 50%;
   }
